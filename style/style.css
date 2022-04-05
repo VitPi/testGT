@@ -199,10 +199,10 @@ figure img {
 
 
 .poss li figcaption {
-    width: 75%;
+    width: 80%;
     position: absolute;
     top: -20vw;
-    left: 13vw;
+    left: 10vw;
 }
 
 /*.spec {*/
