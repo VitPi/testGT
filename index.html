@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style/style.css">
-    <!--    <link rel="stylesheet" href="style/styleDisctop.css">-->
+    <link rel="stylesheet" href="style/styleDesktop.css">
     <link rel="stylesheet" href="fonts/stylesheet.css">
     <title>Home</title>
 </head>
@@ -16,14 +16,18 @@
 <header>
 
     <nav>
-        <div class="logo">
-            <a href="#">DentHealth</a>
-        </div>
+
+        <figure class="logo">
+            <img src="img/logo.png" alt="logo">
+            <figcaption>
+                <p>DentHealth</p>
+            </figcaption>
+        </figure>
 
 
         <ul class="logoLink">
-            <li class="dash"><a href="#">Главная</a></li>
-            <li><a href="#">О клинике</a></li>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="pageAboutClinic/index.html">О клинике</a></li>
             <li><a href="#">Пациентам</a></li>
             <li><a href="#">Услуги</a></li>
             <li><a href="#">Контакты</a></li>
@@ -53,7 +57,7 @@
 <main>
 
     <div class="wrap-video">
-        <video autoplay loop muted >
+        <video autoplay loop muted>
             <source src="videos/1440_1000.mp4" type="video/mp4">
         </video>
     </div>
@@ -104,30 +108,29 @@
     <section class="sectionMain">
         <h1>Наши контакты</h1>
 
-        <div>
+        <div class="wrap-contact">
 
+            <a href="#">г. Минск, ул. Ольшевского, д.1 корп.1 <br class="br"> (р-н ст. метро «Пушкинская»)</a>
 
-            <a href="#">г. Минск, ул. Ольшевского, д.1 корп.1 <br> (р-н ст. метро «Пушкинская»)</a>
-
-            <ul class="tel">
+            <ul class="contact-tel">
                 <li><a href="tel:+375(17)3238870">+375 17 323 88 70</a></li>
                 <li><a href="tel:+375(29)7052225">+375 29 705 22 25</a></li>
                 <li><a href="tel:+375(29)6909992">+375 29 690 99 92</a></li>
             </ul>
 
 
-            <div class="tel">
-                <div class="writeUs">
+            <div class="contact-all">
+                <div class="write-us">
                     <h3>Пишите нам</h3>
                     <a href="#">pochtadent@gmail.com</a>
                 </div>
 
-                <div class="weWork">
+                <div class="we-work">
                     <h3>Мы работаем</h3>
                     <p>ПН-СБ с 8:00 до 21:00</p>
                 </div>
 
-                <div class="subscribeToUs">
+                <div class="subscribe-to-us">
                     <h3>Подписывайтесь на нас</h3>
                     <ul class="network">
                         <li><a href="#" class="instagram">
@@ -172,10 +175,12 @@
 
 <footer>
 
-
-    <div class="logo footer-logo ">
-        <a href="#">DentHealth</a>
-    </div>
+    <figure class="logo footer-logo">
+        <img src="img/logo.png" alt="logo">
+        <figcaption>
+            <p>DentHealth</p>
+        </figcaption>
+    </figure>
 
     <div class="footAddress">
         <ul class="contact">

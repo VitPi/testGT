@@ -41,6 +41,13 @@
     grid-row: 2/4;
 }
 
+.img-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
 .prev {
     width: 50%;
     height: 100%;
@@ -48,21 +55,40 @@
 }
 
 .slang {
+    color: var(--cold);
+
     margin: 25vw 0 10vw 0;
     padding: 0 5vw;
     font-size: 2rem;
     line-height: 2.5rem;
 }
 
-.about-group {
+.wrap-smile {
     margin-top: 10vw;
 }
 
-.about-group-figcaption {
+.wrap-smile figcaption p {
+    color: var(--cold);
+    font-size: 32px;
+    line-height: 38px;
+    padding: 5vw;
+}
+
+.wrap-smile img {
+    margin-top: 10vw;
+}
+
+.about-group {
     position: relative;
-    margin-top: 30vw;
-    background: url("../img/im42.jpg") no-repeat;
-    z-index: -1;
+    margin-top: 20vw;
+}
+
+.about-group-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
 }
 
 .about-group-figcaption > p {

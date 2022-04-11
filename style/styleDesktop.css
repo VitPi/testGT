@@ -1,0 +1,210 @@
+/*
+
+
+*/
+
+
+@media (min-width: 50rem) {
+
+    nav {
+        padding: 2vw 5vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logoLink {
+        width: 60%;
+        border: 0;
+        border-radius: 0;
+        display: flex;
+        align-items: center;
+        align-content: center;
+    }
+
+    .logoLink:after, .logoLink:before {
+        display: none;
+    }
+
+    .logoLink li {
+        display: block;
+    }
+
+    .logoLink li a {
+        color: var(--white);
+    }
+
+    .logoLink2 {
+        width: 20vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 2;
+    }
+
+    .poss {
+        display: flex;
+        top: -7vw;
+    }
+
+    .poss li {
+        flex-grow: 1;
+        position: relative;
+    }
+
+    .poss li figcaption {
+        width: 96%;
+        top: -3vw;
+        left: 1vw;
+        text-align: center;
+        margin-bottom: 1vw;
+    }
+
+    .poss li figcaption a {
+        color: var(--white);
+        text-transform: uppercase;
+        border-left: 2px solid var(--white);
+        padding: 1vw;
+    }
+
+    .wrap-video {
+        height: 70vw;
+    }
+
+    .wrap-video:before {
+        height: 70vw;
+    }
+
+    .possItem {
+        display: block;
+    }
+
+    .sectionMain {
+        height: 39vw;
+        margin-top: 8vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sectionMain h1 {
+        width: 50%;
+        margin: 0;
+        font-size: 3rem;
+        padding-left: 3vw;
+    }
+
+    .wrap-contact {
+        width: 50%;
+    }
+
+    .br {
+        display: none;
+    }
+
+    .contact-tel {
+        width: 60%;
+        height: 10vw;
+        margin: 0;
+        padding: 1vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+
+    .contact-tel li {
+        margin: 1vw;
+    }
+
+    .contact-all {
+        width: 70%;
+        height: 15vw;
+        margin: 0;
+        padding: 1vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+
+    .write-us {
+        margin: 0;
+    }
+
+    .write-us > h3 {
+        margin-bottom: 1vw;
+    }
+
+    .network {
+        margin: 0;
+    }
+
+    .we-work {
+        margin: 1vw 0 0 0;
+    }
+
+    footer {
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 30% 70%;
+        grid-template-rows: repeat(3, 100px);
+    }
+
+    .footer-logo {
+        margin: 2vw;
+    }
+
+    .contact {
+        height: 12vw;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .contact li {
+        margin: 1vw;
+        width: 6vw;
+        height: 1.5vw;
+    }
+
+    .emblem h5 {
+        margin: 1vw;
+    }
+
+    .telFoot {
+        margin: 0;
+    }
+
+    .telFoot li {
+        margin-top: 1vw;
+    }
+
+    .emblem {
+        margin: 4vw 0 4vw 2vw;
+        grid-row: 3/5;
+    }
+
+    .network li {
+        margin: 1vw;
+    }
+
+    .footAddress {
+        margin: 2vw 4vw;
+        padding: 2vw;
+        grid-column: 2;
+        grid-row: 1/5;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 25%);
+    }
+
+    .contact2 {
+        grid-column: 3;
+    }
+
+}
+
+
+
+
