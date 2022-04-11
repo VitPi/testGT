@@ -4,6 +4,15 @@
 
 .wrap {
     position: relative;
+    height: 175vw;
+}
+
+.wrap:before {
+    background: rgb(57 53 53 / 71%); /*задаем цвет и прозрачность затемнения*/
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 175vw;
 }
 
 .wrap-logo {
