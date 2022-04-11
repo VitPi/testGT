@@ -61,9 +61,12 @@
 .about-group-figcaption {
     position: relative;
     margin-top: 30vw;
-    padding: 10vw 5vw;
     background: url("../img/im42.jpg") no-repeat;
     z-index: -1;
+}
+
+.about-group-figcaption > p {
+    padding: 10vw 5vw;
 }
 
 .about-group-figcaption:before {
