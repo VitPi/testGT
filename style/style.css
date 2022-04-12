@@ -37,7 +37,7 @@ header {
 
 /*+++++++++++++++ burger +++++++++++++++++++++++*/
 
-.hamburger-menu{
+.hamburger-menu {
     border: 1px solid var(--white);
     border-radius: 20px 0;
     width: 3em;
@@ -46,13 +46,10 @@ header {
 
 }
 
-
-
 /* скрываем чекбокс */
 #menu__toggle {
     opacity: 0;
     display: none;
-
 }
 
 /* стилизуем кнопку */
@@ -80,8 +77,6 @@ header {
 }
 
 
-
-
 .menu__btn > span::before {
     content: '';
     top: -8px;
@@ -100,23 +95,17 @@ header {
     display: block;
     position: fixed;
     visibility: hidden;
-    top: 10%;
+    top: 15%;
     left: -100%;
-    width: 90%;
-    height: 60%;
+    width: 95%;
+    /*height: 70%;*/
     margin: 0;
-    padding: 80px 0;
-    list-style: none;
     text-align: center;
     background-color: #ECEFF1;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
 }
 
 /* элементы меню */
-.menu__item {
-
-
-}
 
 .menu__item:hover {
     background-color: #CFD8DC;
@@ -149,13 +138,27 @@ header {
 }
 
 .menu__box {
-    transition-duration: .25s;
+    transition-duration: .45s;
 }
 
 .menu__item {
-    transition-duration: .25s;
+    margin-top: 4vw;
 }
 
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin: 6vw;
+}
+
+.social-links li {
+
+}
+
+.social-links a {
+    display: flex;
+    margin: 4vw;
+}
 
 /* =====================+++++++++++++++*/
 
@@ -174,7 +177,6 @@ header {
     margin: 0;
     color: var(--cold);
 }
-
 
 
 /*nav {*/
@@ -218,15 +220,43 @@ header {
 /*    background-color: var(--white);*/
 /*}*/
 
-/*.logoLink2 {*/
-/*    display: none;*/
-/*}*/
+.logo-link2 {
+    margin-top: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.logo-link2 li {
+    flex-grow: 1;
+}
+
+.logo-link2-tel {
+    /*width: 30%;*/
+    display: flex;
+    justify-content: space-between;
+
+}
 
 
+.logo-link2-tel a {
+    display: flex;
+    margin: 0;
 
+}
 
+.language {
+    text-align: right;
+    margin: 6vw;
 
+}
 
+.logo-link {
+    text-align: left;
+    padding: 5vw;
+
+}
 
 .wrap-video {
     width: 100%;
