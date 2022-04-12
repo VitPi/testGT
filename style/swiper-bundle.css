@@ -63,8 +63,8 @@
     /*margin: 20px;*/
 }
 
-.swiper-slide img{
-    /*width: 50%;*/
+
+.swiper-slide img {
     object-fit: cover;
     overflow: hidden;
 
@@ -744,3 +744,39 @@ button.swiper-pagination-bullet {
     backface-visibility: hidden;
     overflow: hidden;
 }
+
+
+@media (min-width: 50rem) {
+
+
+    .swiper-wrapper {
+        transform: none !important;
+    }
+
+    .swiper-button-next {
+        display: none !important;
+    }
+
+    .swiper-button-prev {
+        display: none !important;
+    }
+
+    .photo-clinic-item {
+        width: 25% !important;
+        padding: 0 1vw;
+    }
+
+    .photo-clinic-item img {
+        object-fit: contain !important;
+    }
+
+
+    .swiper-near-footer {
+        margin: 0 4vw 10vw 4vw !important;
+    }
+
+}
+
+
+
+

@@ -6,11 +6,11 @@
 @media (min-width: 50rem) {
 
 
-    nav {
-        padding: 2vw 5vw;
-        display: flex;
-        justify-content: space-around;
-    }
+    /*nav {*/
+    /*    padding: 2vw 5vw;*/
+    /*    display: flex;*/
+    /*    justify-content: space-around;*/
+    /*}*/
 
     .logoLink {
         height: 5vw;
@@ -42,6 +42,61 @@
         justify-content: space-between;
         align-items: center;
         z-index: 2;
+    }
+
+
+    .wrap {
+        height: 60vw;
+    }
+
+    .wrap-logo {
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(12, 4vw);
+    }
+
+    .wrap-text {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        grid-column: 1/8;
+        grid-row: 4/8;
+    }
+
+    .wrap-img {
+        grid-column: 6/12;
+        grid-row: 1/13;
+
+    }
+
+    .photo-clinic {
+        height: 18.5rem;
+    }
+
+    .wrap-smile {
+        display: flex;
+        align-items: center;
+    }
+
+    .wrap-smile figcaption p {
+        padding: 0 4vw;
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .wrap-smile img {
+        margin: 0 13vw 0 0;
+        width: 40%;
+
+    }
+
+    .about-group-figcaption > p {
+        padding: 8vw 24vw;
+    }
+
+    .slang {
+        margin: 10vw auto 4vw auto;
+        width: max-content;
+        font-size: 3rem;
+        line-height: 3rem;
     }
 
 
