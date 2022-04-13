@@ -32,7 +32,9 @@
 // });
 
 
-const clickOnLink = document.querySelectorAll('.services');
+const body = document.body,
+    clickOnLink = document.querySelectorAll('.services'),
+    checkbox = document.querySelector('#menu__toggle');
 
 
 for (const clickOnLinkElement of clickOnLink) {
@@ -44,10 +46,24 @@ for (const clickOnLinkElement of clickOnLink) {
         clickOnLinkElement.nextElementSibling.classList.toggle('services-item');
 
     })
-
-
 }
 
+
+body.addEventListener('click', () => {
+
+    // console.dir(checkbox.checked = 'false');
+    // checkbox.checked = false
+
+
+    if (checkbox.checked) {
+        // checkbox.checked = false
+    }
+
+
+    console.dir(checkbox.checked);
+
+
+})
 
 
 
