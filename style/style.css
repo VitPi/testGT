@@ -94,12 +94,12 @@ header {
 .menu__box {
     display: block;
     position: fixed;
-    visibility: visible;
-    top: 0;
+    /*visibility: visible;*/
+    top: 25vw;
     left: -100%;
-    width: 95%;
+    width: 80%;
     /*height: 70%;*/
-    margin: 0;
+    /*margin: 0;*/
     text-align: center;
     background-color: #ECEFF1;
     box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
@@ -130,7 +130,8 @@ header {
 }
 
 .menu__item li {
-    margin: 5vw;
+    margin-top: 5vw;
+    margin-left: 5vw;
 }
 
 .services-item li {
@@ -157,8 +158,9 @@ header {
 }
 
 #menu__toggle:checked ~ .menu__box {
-    visibility: visible;
-    left: 0;
+    /*visibility: visible;*/
+    left: 10vw;
+
 }
 
 .menu__btn > span,
@@ -275,7 +277,8 @@ header {
 
 .language {
     text-align: right;
-    margin: 6vw;
+    margin-top: 6vw;
+    margin-right: 6vw;
 
 }
 
