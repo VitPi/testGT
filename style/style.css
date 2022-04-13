@@ -94,22 +94,52 @@ header {
 .menu__box {
     display: block;
     position: fixed;
-    visibility: hidden;
-    top: 15%;
+    visibility: visible;
+    top: 0;
     left: -100%;
     width: 95%;
     /*height: 70%;*/
     margin: 0;
     text-align: center;
     background-color: #ECEFF1;
-    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
 }
+
+.services {
+    display: flex;
+    align-items: baseline;
+}
+
+.services:after {
+    content: ' ';
+    width: 2.5vw;
+    height: 2.5vw;
+    border-right: 1px solid var(--prim3);
+    border-bottom: 1px solid var(--prim3);
+    margin-left: 4vw;
+    transform: rotate(-45deg);
+}
+
+.click:after {
+    transform: rotate(45deg);
+}
+
+
+.services-item {
+    display: none;
+}
+
+.menu__item li {
+    margin: 5vw;
+}
+
+.services-item li {
+    margin-top: 5vw;
+}
+
 
 /* элементы меню */
 
-.menu__item:hover {
-    background-color: #CFD8DC;
-}
 
 #menu__toggle:checked ~ .menu__btn > span {
     transform: rotate(45deg);
@@ -207,9 +237,6 @@ header {
 /*    background-color: var(--white);*/
 /*}*/
 
-/*.logoLink li {*/
-/*    display: none;*/
-/*}*/
 
 /*.logoLink:after {*/
 /*    content: ' ';*/
