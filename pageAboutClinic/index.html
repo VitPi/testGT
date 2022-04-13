@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/styleDesktop.css">
     <link rel="stylesheet" href="../style/swiper-bundle.css">
-    <script defer src="../js/swiper-bundle.js"></script>
+    <script defer src="js/swiper-bundle.js"></script>
     <script defer src="js/main.js"></script>
+    <script defer src="../js/script.js"></script>
     <title>aboutClinic</title>
 
 </head>
@@ -19,33 +20,89 @@
 
 <header>
 
-    <nav>
-        <figure class="logo">
-            <img src="../img/logo.png" alt="logo">
-            <figcaption>
-                <p>DentHealth</p>
-            </figcaption>
-        </figure>
+    <figure class="logo">
+        <img src="../img/logo.png" alt="logo">
+        <figcaption>
+            <p>DentHealth</p>
+        </figcaption>
+    </figure>
 
-        <ul class="logoLink">
-            <li><a href="../index.html">Главная</a></li>
-            <li><a href="index.html">О клинике</a></li>
-            <li><a href="#">Пациентам</a></li>
-            <li><a href="#">Услуги</a></li>
-            <li><a href="../pageContacts/index.html">Контакты</a></li>
-        </ul>
+    <nav class="hamburger-menu">
 
-        <ul class="logoLink2">
-            <li><a href="#">
-                <img src="../img/loc.png" alt="img">
-            </a></li>
-            <li><a href="#">
-                <img src="../img/telephone.png" alt="img">
-            </a></li>
-            <li><a href="#">
-                <img src="../img/location.png" alt="img">
-            </a></li>
-        </ul>
+        <input id="menu__toggle" type="checkbox"/>
+
+        <label class="menu__btn" for="menu__toggle">
+            <span></span>
+
+        </label>
+
+        <div class="menu__box">
+            <ul class="logo-link2">
+
+                <li><a href="#"><img src="../img/prim.svg" alt="svg" class="svg"></a></li>
+                <li><a href="#"><img src="../img/prim2.svg" alt="svg" class="svg2"></a></li>
+
+                <li>
+                    <ul class="logo-link2-tel">
+                        <li><a href="#">
+                            <img src="../img/telephone.svg" alt="svg" class="svg">
+                            <img src="../img/telephone2.svg" alt="svg" class="svg2">
+                        </a></li>
+                        <li><a href="#">
+                            <img src="../img/location.svg" alt="svg" class="svg">
+                            <img src="../img/location2.svg" alt="svg" class="svg2">
+                        </a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="language">
+                <a href="#">RU</a>
+                <a href="#">/</a>
+                <a href="#">EN</a>
+            </div>
+
+            <ul class="logo-link">
+                <li class="menu__item"><a href="../index.html">Главная</a></li>
+                <li class="menu__item"><a href="../pageAboutClinic/index.html">О клинике</a></li>
+                <li class="menu__item"><a class="services" href="#">Пациентам</a>
+                    <ul class="services-item">
+                        <li><a href="#">Стоимость</a></li>
+                        <li><a href="#">Персонал</a></li>
+                        <li><a href="#">Отзывы</a></li>
+                    </ul>
+                </li>
+
+                <li class="menu__item"><a class="services" href="#">Услуги</a>
+                    <ul class="services-item">
+                        <li><a href="#">Профилактика и лечение кариеса</a></li>
+                        <li><a href="#">Периодонтология</a></li>
+                        <li><a href="#">Эстетическая стоматология</a></li>
+                        <li><a href="#">Имплантация</a></li>
+                        <li><a href="#">Аугментация</a></li>
+                        <li><a href="#">Комплексное протезирование</a></li>
+                    </ul>
+                </li>
+
+                <li class="menu__item"><a href="../pageContacts/index.html">Контакты</a></li>
+            </ul>
+
+            <ul class="social-links">
+                <li><a href="#">
+                    <img src="../img/instagram.svg" alt="svg" class="svg">
+                    <img src="../img/instagram2.svg" alt="svg" class="svg2">
+                </a></li>
+
+                <li><a href="#">
+                    <img src="../img/telega.svg" alt="svg" class="svg">
+                    <img src="../img/telega2.svg" alt="svg" class="svg2">
+                </a></li>
+                <li><a href="#">
+                    <img src="../img/viber.svg" alt="svg" class="svg">
+                    <img src="../img/viber2.svg" alt="svg" class="svg2">
+                </a></li>
+            </ul>
+        </div>
     </nav>
 
 </header>

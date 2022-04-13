@@ -1,0 +1,57 @@
+/*
+
+
+
+*/
+
+body {
+    height: 5000px;
+}
+
+header {
+    background: var(--white);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.sectionMain {
+    padding-top: 45vw;
+
+}
+
+.hamburger-menu {
+    border: 1px solid var(--prim3);
+
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+    background-color: var(--prim3);
+}
+
+.logo-link{
+    /*overflow: auto;*/
+    
+}
+
+.embed-container {
+    margin-top: 20vw;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
