@@ -4,8 +4,8 @@
 
 */
 
-body {
-    height: 5000px;
+a {
+    text-decoration: none;
 }
 
 header {
@@ -20,8 +20,8 @@ header {
 
 .hamburger-menu {
     border: 1px solid var(--prim3);
-
 }
+
 
 .menu__btn > span,
 .menu__btn > span::before,
@@ -29,18 +29,19 @@ header {
     background-color: var(--prim3);
 }
 
-.logo-link{
+.logo-link {
     /*overflow: auto;*/
-    
+
 }
 
 .embed-container {
-    margin-top: 20vw;
+    margin-top: 1vw;
     position: relative;
     padding-bottom: 56.25%;
-    height: 0;
+    /*height: 0;*/
     overflow: hidden;
     max-width: 100%;
+    height: 105vh;
 }
 
 .embed-container iframe, .embed-container object, .embed-container embed {
@@ -50,6 +51,223 @@ header {
     width: 100%;
     height: 100%;
 }
+
+form {
+    margin-top: 12vw;
+    padding: 5vw;
+}
+
+.record-h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+    color: var(--cold);
+}
+
+.send-a-request {
+    margin-top: 5vw;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    color: var(--Neutral);
+
+}
+
+.form-group {
+    margin-top: 14vw;
+}
+
+.form-control {
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid var(--Neutral);
+    outline: none;
+}
+
+
+.form-check {
+    margin-top: 1rem;
+}
+
+.form-check-label {
+    font-size: .9rem;
+    line-height: 1rem;
+    color: var(--Neutral);
+}
+
+.btn-primary {
+    padding: 5vw;
+    color: var(--Neutral);
+    background-color: var(--white);
+    border-color: .1rem solid var(--prim2);
+    border-radius: 25px 0;
+    width: 100%;
+    margin-top: 5vw;
+}
+
+
+
+/* прячем input checkbox */
+.form-check-input[type="checkbox"] {
+    display: none;
+}
+
+/* стили для метки */
+.form-check-label {
+
+    cursor: default;
+    font-weight: normal;
+    line-height: 30px;
+    padding: 10px 0;
+    vertical-align: middle;
+}
+
+/* формируем внешний вид чекбокса в псевдоэлементе before */
+.form-check-label:before {
+    content: " ";
+    /*color: #000;*/
+    display: inline-block;
+    margin-right: 1rem;
+    position: relative;
+    text-align: center;
+    /*text-indent: 0;*/
+    width: 8vw;
+    height: 8vw;
+    background: #FFF;
+    border: 1px solid #e3e3e3;
+    border-image: initial;
+    vertical-align: middle;
+}
+
+/* вариации внешнего вида в зав-ти от статуса checkbox */
+/* checked */
+.form-check-input:checked + .form-check-label:before {
+    content: url("../img/galka.svg");
+}
+
+/* disabled */
+.form-check-input:disabled + .form-check-label:before {
+    background: #eee;
+    color: #aaa;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

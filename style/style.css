@@ -8,6 +8,8 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
+
+
     padding: 0;
     margin: 0;
     font-family: 'Gilroy', sans-serif;
@@ -24,6 +26,8 @@
     --prim: #EFF5F3;
     --prim2: #03594E;
     --prim3: rgba(2, 76, 73, 0.85);
+    --Neutral: #6C7F8E
+
 }
 
 .gold {
@@ -409,6 +413,7 @@ footer {
 
 .contact li a, .contact li a:visited, .contact li a:active {
     color: var(--prim2);
+    text-decoration: none;
 }
 
 .telFoot {
@@ -417,6 +422,7 @@ footer {
 
 .telFoot li a {
     color: var(--prim2);
+    text-decoration: none;
 }
 
 .telFoot li {
