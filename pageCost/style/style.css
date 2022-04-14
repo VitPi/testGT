@@ -1,0 +1,56 @@
+/*
+
+*/
+
+
+.cost {
+    margin-top: 10vw;
+    padding: 0 5vw;
+}
+
+.cost-section * {
+    color: var(--cold);
+}
+
+.cost-section {
+    /*width: 90%;*/
+    margin: 7vw 0 0 0;
+    display: flex;
+    
+}
+
+.cost-section li {
+    margin-top: 5vw;
+}
+
+.services {
+    /*width: 90%;*/
+    text-transform: uppercase;
+}
+
+
+.services:after {
+    content: url("../img/cross.svg");
+    border: none;
+    width: auto;
+    height: auto;
+    margin-left: 5vw;
+    transform: rotate(-45deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -23,6 +23,8 @@ for (const clickOnLinkElement of clickOnLink) {
         clickOnLinkElement.nextElementSibling.classList.toggle('services-item');
 
     })
+
+
 }
 
 
