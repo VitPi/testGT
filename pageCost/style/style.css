@@ -3,7 +3,7 @@
 */
 
 
-.cost {
+.groups-cost {
     margin-top: 10vw;
     padding: 0 5vw;
 }
@@ -13,30 +13,88 @@
 }
 
 .cost-section {
-    /*width: 90%;*/
-    margin: 7vw 0 0 0;
-    display: flex;
-    
+    margin-top: 10vw;
+    margin-left: 0;
+    display: grid;
+    justify-content: space-between;
 }
 
 .cost-section li {
     margin-top: 5vw;
 }
 
+.cost-section ul {
+    margin-top: 5vw;
+}
+
 .services {
-    /*width: 90%;*/
+    line-height: 1.4rem;
+}
+
+.cost-section-item {
     text-transform: uppercase;
 }
 
-
-.services:after {
-    content: url("../img/cross.svg");
-    border: none;
-    width: auto;
-    height: auto;
-    margin-left: 5vw;
-    transform: rotate(-45deg);
+.cost-section-item:after {
+    content: none;
 }
+
+.after {
+    transform: rotate(45deg);
+    width: 1rem;
+    height: 1rem;
+    grid-column: 3;
+    /*background: url("../img/cross1.svg") no-repeat;*/
+    background: url("../img/cross.svg") no-repeat;
+    background-size: contain;
+}
+
+.after-click {
+    transform: rotate(0);
+}
+
+.service-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-block h6 {
+    width: 40%;
+    font-size: 0.65rem;
+    line-height: 1rem;
+    flex-grow: 0;
+}
+
+.dash {
+    width: 10%;
+    border-bottom: 1px dashed var(--cold);
+    flex-grow: 3;
+    padding: 2vw ;
+    margin: 0 5vw;
+}
+
+.cost {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    text-align: right;
+    flex-grow: 0;
+}
+
+
+.item-list {
+    grid-column: 1/3;
+
+}
+
+
+
+
+
+
+
+
 
 
 
