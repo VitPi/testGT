@@ -39,6 +39,11 @@
     content: none;
 }
 
+.block-cost {
+    display: none;
+}
+
+
 .after {
     transform: rotate(45deg);
     width: 1rem;
@@ -61,8 +66,8 @@
 
 .service-block h6 {
     width: 40%;
-    font-size: 0.65rem;
-    line-height: 1rem;
+    font-size: 0.87rem;
+    line-height: 0.9rem;
     flex-grow: 0;
 }
 

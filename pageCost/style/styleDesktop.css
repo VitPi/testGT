@@ -6,21 +6,30 @@
 @media (min-width: 50rem) {
 
 
-    .menu__box {
-        grid-template-rows: repeat(6, 65%);
+    .wrap-video {
+        height: 48vw;
     }
 
+    .wrap-video:before {
+        height: 48vw;
+    }
+
+
     .block-cost {
+        width: 100%;
         display: grid;
-        grid-column: 1/5;
-        grid-row: 4/4;
+        position: absolute;
+        top: 14vw;
+        left: -4vw;
+
     }
 
     .block-item-cost {
+        margin: 0;
+        padding: 0;
         font-size: 3rem;
         line-height: 3rem;
         color: var(--white);
-        grid-column: 1/3;
     }
 
     .block-item-paragraph {
@@ -30,9 +39,70 @@
         font-size: 1.5rem;
         line-height: 1.7rem;
         color: var(--white);
-        font-family: 'Gilroy-Medium', sans-serif;
-        
+        font-family: 'Gilroy-Regular', sans-serif;
     }
+
+
+    .groups-cost {
+        margin: 0;
+        display: block;
+        overflow: hidden;
+        padding: 8vw 15vw;
+    }
+
+    .cost-section {
+        margin-top: 3vw;
+    }
+
+    .cost-section-item {
+        margin-bottom: 2vw;
+        font-size: 2rem;
+        line-height: 2.4rem;
+    }
+
+    .after {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .br-item{
+        display: none;
+    }
+
+    .service-block h6 {
+
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .cost {
+        font-size: 2rem;
+        line-height: 2.3rem;
+    }
+
+    .cost-section ul {
+        margin: 0;
+    }
+
+    .cost-section li {
+        margin-top: 1vw;
+    }
+
+    .item-list {
+        grid-column: 1/4;
+    }
+
+    .service-block h6 {
+         width: auto;
+    }
+
+    .dash {
+        padding: 0;
+        margin: 0 1vw;
+    }
+
+
+
 
 }
 
