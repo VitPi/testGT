@@ -1,0 +1,79 @@
+/*
+
+
+
+*/
+
+
+.section-people {
+    margin-top: 20vw;
+}
+
+
+.img-item {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.wrap-text-spec {
+    position: absolute;
+    top: 50vw;
+    margin: 4vw;
+    color: var(--white);
+}
+
+.wrap-text-spec h3 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 5vw;
+}
+
+.wrap-text-spec p {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+
+.admins {
+    padding: 0 4vw;
+}
+
+.admins h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    color: var(--cold);
+}
+
+.swiper {
+    height: 300px;
+}
+
+
+.block-person {
+    margin-top: 13vw;
+}
+
+.photo-person {
+    width: 100%;
+    /*height: 100%;*/
+    /*object-fit: cover;*/
+    border-radius: 2vw;
+
+}
+
+
+.name-person {
+    font-size: 1.5rem;
+    color: var(--prim2);
+
+}
+
+.about-person {
+    color: var(--neo);
+    margin-bottom: 15vw;
+
+}
+
+

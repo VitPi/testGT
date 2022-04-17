@@ -30,17 +30,11 @@ function hideElements(arr) {
 
     for (const clickOnLinkElement of arr) {
 
-
-        // console.log(clickOnLinkElement);
-
         clickOnLinkElement.addEventListener('click', () => {
             const objChildrenColl = clickOnLinkElement.childNodes;
 
-            // console.log(objChildrenColl);
-
             for (const argumentsKey in objChildrenColl) {
                 const elementObject = objChildrenColl[argumentsKey]
-
 
                 if (elementObject.localName === ul.localName) {
                     elementObject.classList.toggle('services-item') // скрывает элимент
