@@ -1,0 +1,79 @@
+/*
+
+
+
+*/
+
+
+.color {
+    height: 135vw;
+    background: var(--prim2);
+}
+
+
+.person {
+    position: absolute;
+    top: 40vw;
+    padding: 4vw;
+    color: var(--white);
+}
+
+.name {
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.about-name {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+.person-img {
+    margin-top: 10vw;
+    width: 70%;
+    border-radius: 2vw;
+}
+
+.about-people {
+    margin-top: 40vw;
+    padding: 5vw;
+    height: 155vw;
+    overflow: hidden;
+    transition: height 3s ease-out 2s;
+
+}
+
+.rotate-height {
+    height: auto;
+}
+
+.about-br-none {
+    display: none;
+}
+
+.arrow {
+    display: block;
+    background: url("../img/vector.svg") no-repeat;
+    background-size: 100% 100%;
+    height: 5vw;
+    margin-top: 5vw;
+}
+
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

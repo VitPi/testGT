@@ -1,0 +1,58 @@
+/*
+
+
+*/
+
+
+@media (min-width: 50rem) {
+
+
+    .color {
+        height: 47vw;
+    }
+
+    .person {
+        top: 25vw;
+        display: grid;
+        padding-left: 10vw;
+    }
+
+    .person-item {
+        grid-row: 1;
+        grid-column: 2;
+        margin: 3vw 0 0 8vw;
+    }
+
+    .person-img {
+        width: 30vw;
+        height: 30vw;
+        object-fit: cover;
+        margin: 0;
+        grid-row: 1;
+        grid-column: 1;
+
+    }
+
+
+    .name {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+
+    .about-people {
+        margin-top: 20vw;
+        height: auto;
+        font-size: 1.3rem;
+        padding: 0 30vw 5vw 10vw;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+}
+
+
+
+
