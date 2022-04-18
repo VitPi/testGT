@@ -235,7 +235,7 @@ sup {
 
 a {
     color: #0d6efd;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:hover {
@@ -6568,7 +6568,7 @@ textarea.form-control-lg {
     margin-right: -100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    transition: transform 0.6s ease-in-out;
+    transition: transform 0.7s ease-in-out;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -7308,7 +7308,7 @@ textarea.form-control-lg {
 }
 
 .d-block {
-    display: block !important;
+    /*display: block !important;*/
 }
 
 .d-grid {
@@ -7545,7 +7545,7 @@ textarea.form-control-lg {
 }
 
 .w-100 {
-    width: 100% !important;
+    /*width: 100% !important;*/
 }
 
 .w-auto {

@@ -1,0 +1,88 @@
+/*
+
+*/
+
+
+@media (min-width: 50rem) {
+
+
+
+
+    .logo-link a {
+        color: var(--white);
+    }
+
+    .wrap-video {
+        height: 48vw;
+    }
+
+    .wrap-video:before {
+        height: 48vw;
+    }
+
+    .wrap-text-spec {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+        top: 18vw;
+    }
+
+    .wrap-text-spec h3 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+        margin: 0;
+    }
+
+    .wrap-text-spec p {
+        /*font-size: 1.25rem;*/
+        /*line-height: 1.5rem;*/
+        width: 30%;
+        /*flex-grow: 3;*/
+
+    }
+
+    .carousel-inner {
+        margin-top: 5vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+    }
+
+    .section-people {
+        margin-top: 14vw;
+    }
+
+    .admins {
+        padding: 1vw 5vw;
+    }
+
+    .admins h4 {
+        font-size: 3rem;
+        line-height: 3.3rem;
+    }
+
+    .block-person {
+        width: 33.3%;
+        margin: 0;
+        padding: 2vw;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
