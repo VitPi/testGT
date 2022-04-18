@@ -6,8 +6,6 @@
 @media (min-width: 50rem) {
 
 
-
-
     .logo-link a {
         color: var(--white);
     }
@@ -35,19 +33,7 @@
     }
 
     .wrap-text-spec p {
-        /*font-size: 1.25rem;*/
-        /*line-height: 1.5rem;*/
         width: 30%;
-        /*flex-grow: 3;*/
-
-    }
-
-    .carousel-inner {
-        margin-top: 5vw;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-
     }
 
     .section-people {
@@ -63,11 +49,23 @@
         line-height: 3.3rem;
     }
 
+
+    .carousel-block1 {
+        display: none;
+    }
+
+    .carousel-block2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .block-person {
         width: 33.3%;
         margin: 0;
         padding: 2vw;
     }
+
+
 
 
 }
