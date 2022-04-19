@@ -1,0 +1,59 @@
+/*
+
+
+
+*/
+
+
+.about-name {
+    margin-top: 1.2rem;
+
+}
+
+.skill {
+    display: grid;
+    height: 42vw;
+    color: var(--prim2);
+    background: var(--poluwite);
+    padding: 4vw;
+    text-align: center;
+    /*overflow: hidden;*/
+
+
+}
+
+
+.year-skill {
+    margin-top: 5vw;
+    font-size: 3.5rem;
+    line-height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about-person {
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+    color: var(--neo);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

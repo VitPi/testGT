@@ -10,7 +10,7 @@
     text-decoration: none;
     padding: 0;
     margin: 0;
-    font-family: 'Gilroy-Regular',sans-serif;
+    font-family: 'Gilroy-Regular', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -23,6 +23,7 @@
     --cold: #8C694A;
     --neo: #6C7F8E;
     --prim: #EFF5F3;
+    --poluwite: #F9FBFA;
     --prim2: #03594E;
     --prim3: rgba(2, 76, 73, 0.85);
     --Neutral: #6C7F8E
@@ -372,11 +373,12 @@ section h1 {
 
 }
 
-.contact2 > a{
+.contact2 > a {
     color: var(--cold);
 
 }
-.contact2 > p{
+
+.contact2 > p {
     color: var(--prim3);
 }
 
@@ -386,7 +388,7 @@ section h1 {
 }
 
 
-.svg2{
+.svg2 {
     display: none;
 }
 
