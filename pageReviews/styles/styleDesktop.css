@@ -1,0 +1,138 @@
+/*
+
+
+*/
+
+
+@media (min-width: 50rem) {
+
+    .rew-h5 {
+        top: 20vw;
+
+    }
+
+    .rew-h5 h5 {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+
+    .wrap-video {
+        margin-bottom: 10vw;
+    }
+
+    .reviews-users {
+        grid-template-columns: 40% 60%;
+        margin-top: 0;
+    }
+
+    .users-date {
+        display: inline-block;
+        grid-column: 1;
+        width: 40%;
+        height: 1rem;
+    }
+
+    .star-wrapper {
+        display: inline-block;
+        grid-column: 1;
+        height: 2rem;
+        margin-left: 10vw;
+        padding-left: 0.7vw;
+    }
+
+    .name {
+        grid-row: 1;
+    }
+
+    .reviews {
+        margin-top: 0;
+        grid-column: 2;
+        grid-row: 1;
+        padding-right: 7vw;
+    }
+
+    .man-himself {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .border {
+        margin: 6vw 0 0 0;
+    }
+
+
+    .record-h1 {
+        font-size: 3rem;
+        grid-row: 1;
+        grid-column: 1/3;
+    }
+
+    .form-check-label:before {
+        width: 2vw;
+        height: 2vw;
+    }
+
+
+    .form {
+        margin: 0;
+        width: 100%;
+        display: inline-grid;
+        grid-template-columns: 50% 50%;
+        grid-column-gap: 5vw;
+    }
+
+    .form-group {
+        margin-top: 7vw;
+        padding: 0 10vw 0 0;
+    }
+
+
+    .wrap-star {
+        display: block;
+        width: 70%;
+        margin-top: 5vw;
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .form-group-call {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .form-check {
+        margin-top: 3vw;
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .btn-primary {
+        margin: 0 0 0 18vw;
+        padding: 0;
+        width: 12vw;
+        height: 4vw;
+        grid-column: 2;
+        grid-row: 4;
+    }
+
+    .feedback {
+        padding-bottom: 5vw;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

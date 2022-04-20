@@ -1,0 +1,277 @@
+/*
+
+
+
+*/
+
+.wrap-video {
+    height: 48vw;
+}
+
+.wrap-video:before {
+    height: 48vw;
+}
+
+.img-item {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rew-h5 {
+    position: absolute;
+    top: 90vw;
+    left: 10vw;
+}
+
+.rew-h5 h5 {
+    color: var(--white);
+    font-size: 2rem;
+    line-height: 2.4rem;
+
+}
+
+.reviews-users {
+    margin-top: 20vw;
+    padding: 5vw;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+
+.users-date {
+    font-size: 1.5rem;
+    line-height: 1.3rem;
+    color: var(--neo);
+    grid-row: 1;
+}
+
+
+.star-wrapper {
+    border-left: 1px solid var(--cold);
+    padding-left: 5vw;
+    grid-row: 1;
+}
+
+.name {
+    font-size: 1.5rem;
+    line-height: 1.3rem;
+    color: var(--cold);
+    grid-column: 1/3;
+    grid-row: 2;
+    margin-top: 5vw;
+
+}
+
+.reviews {
+    color: var(--prim2);
+    margin-top: 9vw;
+    grid-column: 1/3;
+    grid-row: 3;
+}
+
+.man-himself {
+    margin-top: 8vw;
+    display: flex;
+    grid-column: 1/3;
+    grid-row: 4;
+
+}
+
+.man-himself figcaption {
+    color: var(--prim2);
+    margin-left: 5vw;
+}
+
+.border {
+    margin: 12vw 0;
+    border-bottom: 1px solid var(--neo);
+    grid-column: 1/3;
+    grid-row: 5;
+
+}
+
+
+.feedback {
+    padding-bottom: 10vw;
+}
+
+.form-control {
+    width: 100%;
+    outline: none;
+}
+
+.form-control::placeholder {
+    color: var(--neo);
+
+}
+
+
+form {
+    margin-top: 12vw;
+    padding: 5vw;
+}
+
+
+.record-h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+    color: var(--cold);
+}
+
+.send-a-request {
+    margin-top: 5vw;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    color: var(--Neutral);
+
+}
+
+.form-group {
+    margin-top: 14vw;
+    display: block;
+}
+
+.form-control {
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid var(--Neutral);
+    outline: none;
+}
+
+
+.form-check {
+    margin-top: 1rem;
+}
+
+.form-check-label {
+    font-size: .9rem;
+    line-height: 1rem;
+    color: var(--Neutral);
+}
+
+.btn-primary {
+    padding: 4vw;
+    color: var(--prim2);
+    background-color: var(--white);
+    display: block;
+    border: 1px solid var(--prim2);
+    border-radius: 25px 0;
+    width: 100%;
+    margin-top: 20vw;
+}
+
+.btn-primary:active {
+    background: var(--prim2);
+    color: var(--white);
+}
+
+/* прячем input checkbox */
+.form-check-input[type="checkbox"] {
+    display: none;
+}
+
+/* стили для метки */
+.form-check-label {
+    cursor: default;
+    font-weight: normal;
+    line-height: 30px;
+    padding: 10px 0;
+    vertical-align: middle;
+}
+
+/* формируем внешний вид чекбокса в псевдоэлементе before */
+
+.form-check-label:before {
+    content: " ";
+    display: inline-block;
+    margin-right: 1rem;
+    position: relative;
+    text-align: center;
+    width: 8vw;
+    height: 8vw;
+    background: #FFF;
+    border: 1px solid #e3e3e3;
+    border-image: initial;
+    vertical-align: middle;
+}
+
+/* вариации внешнего вида в зав-ти от статуса checkbox */
+/* checked */
+.form-check-input:checked + .form-check-label:before {
+    content: url("../../pageContacts/img/galka.svg");
+}
+
+/* disabled */
+.form-check-input:disabled + .form-check-label:before {
+    background: #eee;
+    color: #aaa;
+}
+
+
+/*   ЗВЕЗДЫ    */
+
+.rating-area {
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.rating-area:not(:checked) > input {
+    display: none;
+}
+
+.rating-area:not(:checked) > label {
+    float: right;
+    width: 1.5rem;
+    padding: 0;
+    cursor: pointer;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    color: lightgrey;
+    text-shadow: 1px 1px #bbb;
+}
+
+.rating-area:not(:checked) > label:before {
+    content: '★';
+}
+
+.rating-area > input:checked ~ label {
+    color: var(--cold);
+    text-shadow: 1px 1px #c60;
+}
+
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+    color: var(--cold);
+}
+
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+    color: var(--cold);
+    text-shadow: 1px 1px var(--cold);
+}
+
+.rate-area > label:active {
+    position: relative;
+}
+
+.wrap-star {
+    margin-top: 15vw;
+    display: flex;
+    border-bottom: 1px solid var(--neo);
+    color: var(--neo);
+}
+
+/*  END STAR  */
+
+
+
+
+
+
+

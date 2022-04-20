@@ -12,9 +12,10 @@
 
 .skill {
     display: grid;
-    height: 42vw;
+    height: 130vw;
     color: var(--prim2);
-    background: var(--poluwite);
+    /*background: var(--poluwite);*/
+    background: #F9FBFA;
     padding: 4vw;
     text-align: center;
     /*overflow: hidden;*/
@@ -34,12 +35,45 @@
 }
 
 .about-person {
-    font-size: 1.3rem;
+    font-size: 1.15rem;
     line-height: 1.7rem;
     color: var(--neo);
+    margin-top: 10vw;
+    text-align: left;
+
+}
+
+#b {
+    display: none;
+}
+
+#f {
+    display: none;
 }
 
 
+.polzunok-container-1 {
+    display: none;
+}
+
+.arrow{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: none;
+    height: auto;
+}
+
+.arrow-left{
+    width: 13vw;
+}
+.arrow-right{
+    width: 13vw;
+}
+
+footer {
+    margin: 0 !important;
+}
 
 
 

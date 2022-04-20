@@ -1,0 +1,58 @@
+/*
+
+
+
+*/
+
+
+.hamburger-menu {
+    border: 1px solid var(--prim3);
+}
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background-color: var(--prim3);
+}
+
+
+.main {
+    padding: 0 5vw;
+}
+
+.profiling {
+    margin-top: 39vw;
+}
+
+
+.prof {
+    font-size: 2rem;
+    color: var(--cold);
+}
+
+.prof-fraze {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    color: var(--neo);
+    margin-top: 6vw;
+}
+
+.figure {
+    margin-top: 15vw;
+}
+
+.hau-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.figure-fraze {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    color: var(--neo);
+    margin-top: 12vw;
+}
+
+
+
+
+

@@ -7,7 +7,21 @@
 @media (min-width: 50rem) {
 
 
+    .skill {
+        height: 50vw;
+    }
 
+    .polzunok-container-1 {
+        display: block;
+    }
+
+    #b, #f {
+        display: block;
+    }
+
+    .arrow {
+        display: none;
+    }
 
 }
 

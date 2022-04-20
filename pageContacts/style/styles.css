@@ -41,7 +41,7 @@ header {
     /*height: 0;*/
     overflow: hidden;
     max-width: 100%;
-    height: 105vh;
+    height: 90vh;
 }
 
 .embed-container iframe, .embed-container object, .embed-container embed {
@@ -52,10 +52,17 @@ header {
     height: 100%;
 }
 
+/*   form */
+
+
+
 form {
     margin-top: 12vw;
     padding: 5vw;
 }
+
+
+
 
 .record-h1 {
     font-size: 2rem;
@@ -96,14 +103,21 @@ form {
 }
 
 .btn-primary {
-    padding: 5vw;
-    color: var(--Neutral);
+    padding: 4vw;
+    color: var(--prim2);
     background-color: var(--white);
-    border-color: .1rem solid var(--prim2);
+    display: block;
+    border: 1px solid var(--prim2);
     border-radius: 25px 0;
     width: 100%;
-    margin-top: 5vw;
+    margin-top: 20vw;
 }
+
+.btn-primary:active{
+    background: var(--prim2);
+    color: var(--white);
+}
+
 
 
 
