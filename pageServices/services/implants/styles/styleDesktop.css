@@ -36,10 +36,6 @@
         width: 100%;
     }
 
-    /*.menu__btn {*/
-    /*    display: none;*/
-    /*}*/
-
     .menu__box a {
         color: var(--prim2);
     }
@@ -127,8 +123,14 @@
         justify-content: space-between;
     }
 
+    .figure-tooth {
+        display: inline-block;
+        margin: 0 4vw;
+    }
+
     .figure-fraze {
-        margin-top: 1.3vw;
+        width: 80%;
+        margin-top: 7vw;
     }
 
     .section-footer {
@@ -138,8 +140,6 @@
     footer {
         margin-top: 14vw;
     }
-
-
 
 
 }

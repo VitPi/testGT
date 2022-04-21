@@ -6,9 +6,25 @@
 
 @media (min-width: 50rem) {
 
+
+
     header {
         padding: 0 5vw;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
+        height: 7vw;
+        align-items: center;
     }
+
+    .menu__box a {
+        color: var(--prim2);
+    }
+
+    .svg {
+        display: block;
+    }
+
+
+    /*     ++++   */
 
     nav {
         display: flex;
@@ -107,6 +123,21 @@
 
     footer {
         margin-top: 14vw;
+    }
+
+
+    .contact {
+        height: 12vw;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .contact li {
+        margin: 1vw;
+        width: 6vw;
+        height: 1.5vw;
     }
 
 }

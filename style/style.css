@@ -181,7 +181,7 @@ header {
 }
 
 .menu__box {
-    transition-duration: .45s;
+    transition-duration: 1.45s;
 }
 
 .menu__item {
