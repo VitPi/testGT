@@ -4,6 +4,22 @@
 
 */
 
+.ul {
+    padding-left: 3rem;
+}
+
+li {
+    list-style-type: disc;
+    color: var(--neo);
+}
+
+h6 {
+    margin-top: 15vw;
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+    color: var(--neo);
+}
 
 .hamburger-menu {
     border: 1px solid var(--prim3);
@@ -48,7 +64,9 @@
     margin-top: 12vw;
 }
 
-
+footer{
+    margin-top: 30vw;
+}
 
 
 
