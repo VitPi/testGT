@@ -57,10 +57,31 @@ hideElements(costSectionItem)
 //++++++++++++++++++++++++++++++++++
 
 
+//    цвет
 
+function colourHeader() {
 
+    const header = document.querySelector('header'),
+        span = document.querySelector('.span'),
+        nav = document.querySelector('.hamburger-menu');
 
+    window.addEventListener('scroll', function () {
 
+        if (scrollY >= 800) {
+            header.classList.add('white')
+            nav.classList.add('hamburger-menu2')
+            span.classList.add('span-colour')
+
+        } else if (scrollY < 800) {
+            header.classList.remove('white')
+            nav.classList.remove('hamburger-menu2')
+            span.classList.remove('span-colour')
+        }
+    });
+
+}
+
+colourHeader()
 
 
 

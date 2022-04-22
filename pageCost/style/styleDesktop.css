@@ -14,6 +14,18 @@
         height: 48vw;
     }
 
+    .figcaption-fraze {
+        display: none;
+    }
+
+
+    .language {
+        display: none;
+    }
+
+    .social-links {
+        display: none;
+    }
 
     .block-cost {
         width: 100%;
@@ -65,7 +77,7 @@
         height: 1.5rem;
     }
 
-    .br-item{
+    .br-item {
         display: none;
     }
 
@@ -93,15 +105,13 @@
     }
 
     .service-block h6 {
-         width: auto;
+        width: auto;
     }
 
     .dash {
         padding: 0;
         margin: 0 1vw;
     }
-
-
 
 
 }

@@ -44,6 +44,13 @@ header {
     padding: 7vw 5vw;
 }
 
+
+.white {
+    background: var(--white);
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
+}
+
+
 /*+++++++++++++++ burger +++++++++++++++++++++++*/
 
 .hamburger-menu {
@@ -53,6 +60,14 @@ header {
     height: 3em;
     position: relative;
 
+}
+
+.hamburger-menu2 {
+    border: 1px solid var(--prim2) !important;
+}
+
+.span-colour, .span-colour:before, .span-colour:after {
+    background-color: var(--prim2) !important;
 }
 
 /* скрываем чекбокс */
@@ -103,8 +118,7 @@ header {
 .menu__box {
     display: block;
     position: fixed;
-    /*visibility: visible;*/
-    top: 25vw;
+    top: 0;
     left: -100%;
     width: 80%;
     text-align: center;
@@ -170,8 +184,8 @@ header {
 
 #menu__toggle:checked ~ .menu__box {
     /*visibility: visible;*/
-    left: 10vw;
-
+    left: 0;
+    top: 0;
 }
 
 .menu__btn > span,
@@ -181,7 +195,7 @@ header {
 }
 
 .menu__box {
-    transition-duration: 1.45s;
+    transition-duration: .70s;
 }
 
 .menu__item {
@@ -409,7 +423,7 @@ footer {
 }
 
 .contact li {
-    margin-top: 6vw;
+    margin-top: 1vw;
 }
 
 .contact li a, .contact li a:visited, .contact li a:active {
@@ -418,7 +432,7 @@ footer {
 }
 
 .telFoot {
-    margin-top: 9vw;
+    margin-top: 6vw;
 }
 
 .telFoot li a {
@@ -427,7 +441,7 @@ footer {
 }
 
 .telFoot li {
-    margin-top: 3vw;
+    /*margin-top: 3vw;*/
 }
 
 .contact2 p > a {

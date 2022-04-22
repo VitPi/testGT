@@ -1,0 +1,74 @@
+/*
+
+
+
+*/
+
+
+@media (min-width: 50rem) {
+
+
+    .img-item {
+        height: 48vw;
+    }
+
+    .wrap-video {
+        height: auto;
+    }
+
+    .wrap-video:before {
+        height: 48vw;
+    }
+
+    .rew-h5 {
+        position: absolute;
+        top: 20vw;
+        left: 10vw;
+    }
+
+    .rew-h5 h5 {
+        font-size: 3rem;
+    }
+
+    /*  === == =  */
+    .section-h3 {
+        width: 25%;
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .section {
+        margin-top: 14vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .section-fraze {
+        margin: 0;
+        width: 50%;
+    }
+
+    /*  =====  */
+    footer {
+        margin-top: 10.5vw;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

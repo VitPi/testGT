@@ -44,6 +44,32 @@
     display: none;
 }
 
+.figcaption-fraze {
+    display: block;
+    position: absolute;
+    top: 30vw;
+    color: var(--white);
+    padding: 5vw;
+}
+
+.figcaption-fraze-cost {
+    font-size: 2rem;
+}
+
+.figcaption-fraze-paragraph {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin-top: 12vw;
+}
+
+.language {
+    display: block;
+}
+
+.social-links {
+    display: flex;
+}
+
 
 .img-item {
     width: 100%;
