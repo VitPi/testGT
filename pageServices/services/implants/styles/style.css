@@ -40,6 +40,16 @@ h6 {
     display: none;
 }
 
+.language{
+    display: block;
+}
+
+.social-links{
+    display: flex;
+}
+
+
+
 .prof {
     margin-top: 45vw;
     font-size: 2rem;

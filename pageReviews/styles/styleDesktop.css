@@ -26,6 +26,16 @@
         margin-top: 0;
     }
 
+
+    .language {
+        display: none;
+    }
+
+    .social-links {
+        display: none;
+    }
+
+
     .users-date {
         display: inline-block;
         grid-column: 1;

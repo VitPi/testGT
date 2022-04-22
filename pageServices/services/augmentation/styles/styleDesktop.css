@@ -123,6 +123,14 @@
         justify-content: space-between;
     }
 
+    .language {
+        display: none;
+    }
+
+    .social-links {
+        display: none;
+    }
+
     .figure-tooth {
         display: inline-block;
         margin: 4vw;

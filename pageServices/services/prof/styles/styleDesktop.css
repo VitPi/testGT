@@ -7,7 +7,6 @@
 @media (min-width: 50rem) {
 
 
-
     header {
         padding: 0 5vw;
         box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
@@ -25,11 +24,19 @@
 
 
     /*     ++++   */
-
     nav {
         display: flex;
         flex-grow: 1;
         justify-content: space-around;
+    }
+
+
+    .language {
+        display: none;
+    }
+
+    .social-links {
+        display: none;
     }
 
     .logo-item {

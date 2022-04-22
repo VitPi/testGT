@@ -24,6 +24,15 @@
 
 }
 
+
+.language {
+    display: block;
+}
+
+.social-links {
+    display: flex;
+}
+
 .section {
     margin-top: 26vw;
     padding: 0 5vw;

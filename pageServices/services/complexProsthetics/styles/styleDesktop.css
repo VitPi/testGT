@@ -130,7 +130,15 @@
 
     .figure-fraze {
         width: 70%;
-        margin:  7vw 0 0 0;
+        margin: 7vw 0 0 0;
+    }
+
+    .language {
+        display: none;
+    }
+
+    .social-links {
+        display: none;
     }
 
     .section-footer {

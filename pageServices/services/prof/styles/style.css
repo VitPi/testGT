@@ -10,7 +10,6 @@ header{
     box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
 }
 
-
 .hamburger-menu {
     border: 1px solid var(--prim3);
 }
@@ -21,6 +20,14 @@ header{
 
 .main {
     padding: 0 5vw;
+}
+
+.language{
+    display: block;
+}
+
+.social-links{
+    display: flex;
 }
 
 .logo-br {

@@ -31,6 +31,15 @@
 
 }
 
+
+.language{
+    display: block;
+}
+
+.social-links{
+    display: flex;
+}
+
 .reviews-users {
     margin-top: 20vw;
     padding: 5vw;

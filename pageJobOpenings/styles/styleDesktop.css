@@ -20,6 +20,14 @@
         height: 48vw;
     }
 
+    .language {
+        display: none;
+    }
+
+    .social-links {
+        display: none;
+    }
+
     .rew-h5 {
         position: absolute;
         top: 20vw;

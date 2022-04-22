@@ -48,6 +48,16 @@
         display: block;
     }
 
+
+    .language {
+        display: none;
+    }
+
+    .social-links {
+        display: none;
+    }
+
+
     .menu__box {
         position: static;
         min-width: 100%;

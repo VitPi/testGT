@@ -67,12 +67,12 @@ function colourHeader() {
 
     window.addEventListener('scroll', function () {
 
-        if (scrollY >= 800) {
+        if (scrollY >= 500) {
             header.classList.add('white')
             nav.classList.add('hamburger-menu2')
             span.classList.add('span-colour')
 
-        } else if (scrollY < 800) {
+        } else if (scrollY < 700) {
             header.classList.remove('white')
             nav.classList.remove('hamburger-menu2')
             span.classList.remove('span-colour')

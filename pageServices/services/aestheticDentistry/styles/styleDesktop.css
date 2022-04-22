@@ -36,6 +36,15 @@
         width: 100%;
     }
 
+
+    .language {
+        display: none;
+    }
+
+    .social-links {
+        display: none;
+    }
+
     .menu__box a {
         color: var(--prim2);
     }
