@@ -40,6 +40,14 @@
         margin-top: 14vw;
     }
 
+    .language {
+        display: none;
+    }
+
+    .social-links {
+        display: none;
+    }
+
     .admins {
         padding: 1vw 5vw;
     }
@@ -69,7 +77,6 @@
     .photo-person {
         margin-bottom: 2vw;
     }
-
 
 
 }

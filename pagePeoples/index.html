@@ -9,13 +9,16 @@
     <link rel="stylesheet" href="../style/styleDesktop.css">
     <script defer src="../js/script.js"></script>
 
-    <link rel="stylesheet" href="../style/bootstrap.css">
-    <script src="../js/bootstrap.js"></script>
+    <!--    <link rel="stylesheet" href="../style/bootstrap.css">-->
+    <!--    <script src="../js/bootstrap.js"></script>-->
+
+    <link rel="stylesheet" href="../style/swiper-bundle.css">
+    <script defer src="../js/swiper-bundle.js"></script>
+    <script defer src="script/script.js"></script>
+
 
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/styleDesktop.css">
-    <script defer src="script/script.js"></script>
-
     <title>Peoples</title>
 </head>
 <body>
@@ -60,6 +63,12 @@
                 </li>
             </ul>
 
+            <div class="language">
+                <a href="#">RU</a>
+                <a href="#">/</a>
+                <a href="#">EN</a>
+            </div>
+
             <ul class="logo-link">
                 <li class="menu__item"><a href="../index.html">Главная</a></li>
                 <li class="menu__item"><a href="../pageAboutClinic/index.html">О клинике</a></li>
@@ -75,14 +84,31 @@
                     <ul class="services-item item-list">
                         <li><a href="../pageServices/services/prof/index.html">Профилактика и лечение кариеса</a></li>
                         <li><a href="../pageServices/services/periodontology/index.html">Периодонтология</a></li>
-                        <li><a href="../pageServices/services/aestheticDentistry/index.html">Эстетическая стоматология</a></li>
+                        <li><a href="../pageServices/services/aestheticDentistry/index.html">Эстетическая
+                            стоматология</a></li>
                         <li><a href="../pageServices/services/implants/index.html">Имплантация</a></li>
                         <li><a href="../pageServices/services/augmentation/index.html">Аугментация</a></li>
-                        <li><a href="../pageServices/services/complexProsthetics/index.html">Комплексное протезирование</a></li>
+                        <li><a href="../pageServices/services/complexProsthetics/index.html">Комплексное
+                            протезирование</a></li>
                     </ul>
                 </li>
 
                 <li class="menu__item"><a href="../pageContacts/index.html">Контакты</a></li>
+            </ul>
+
+            <ul class="social-links">
+                <li><a href="#">
+                    <img src="../img/instagram.svg" alt="svg" class="svg">
+                    <img src="../img/instagram2.svg" alt="svg" class="svg2">
+                </a></li>
+                <li><a href="#">
+                    <img src="../img/telega.svg" alt="svg" class="svg">
+                    <img src="../img/telega2.svg" alt="svg" class="svg2">
+                </a></li>
+                <li><a href="#">
+                    <img src="../img/viber.svg" alt="svg" class="svg">
+                    <img src="../img/viber2.svg" alt="svg" class="svg2">
+                </a></li>
             </ul>
 
         </div>
@@ -107,64 +133,61 @@
 
             <h4>Администрация</h4>
 
-            <div class="carousel slide carousel-block1" data-bs-ride="carousel" data-bs-interval="2500">
+            <div class="swiper carousel-block1" >
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <figure class="block-person">
+                            <img src="img/admins/image1.png" alt="img" class="photo-person">
+                            <figcaption>
+                                <a href="peoples/leusPetr/index.html" class="name-person">Леус Петр Андреевич</a>
+                                <p class="about-person">Научный консультант клиники</p>
+                            </figcaption>
+                        </figure>
+                    </div>
 
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                            aria-label="Slide 4"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-                            aria-label="Slide 5"></button>
+                    <div class="swiper-slide">
+                        <figure class="block-person ">
+                            <img src="img/admins/image2.png" alt="img" class="photo-person">
+                            <figcaption>
+                                <a href="peoples/leusLydia/index.html" class="name-person">Леус Лидия Ивановна</a>
+                                <p class="about-person">Директор, главный врач, кандидат медицинских наук,
+                                    доцент</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide">
+                        <figure class="block-person ">
+                            <img src="img/admins/image3.png" alt="img" class="photo-person">
+                            <figcaption>
+                                <a href="#" class="name-person">Колядина Дарья</a>
+                                <p class="about-person">Помощник директора</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide">
+                        <figure class="block-person ">
+                            <img src="img/admins/image4.png" alt="img" class="photo-person">
+                            <figcaption>
+                                <a href="#" class="name-person">Колесник Анна</a>
+                                <p class="about-person">Администратор</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide">
+                        <figure class="block-person ">
+                            <img src="img/admins/image5.png" alt="img" class="photo-person">
+                            <figcaption>
+                                <a href="#" class="name-person">Гусакова Полина</a>
+                                <p class="about-person">Администратор</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+
                 </div>
-
-                <div class="carousel-inner">
-
-                    <figure class="block-person carousel-item active">
-                        <img src="img/admins/image1.png" alt="img" class="photo-person">
-                        <figcaption>
-                            <a href="peoples/leusPetr/index.html" class="name-person">Леус Петр Андреевич</a>
-                            <p class="about-person">Научный консультант клиники</p>
-                        </figcaption>
-                    </figure>
-
-                    <figure class="block-person carousel-item">
-                        <img src="img/admins/image2.png" alt="img" class="photo-person">
-                        <figcaption>
-                            <a href="peoples/leusLydia/index.html" class="name-person">Леус Лидия Ивановна</a>
-                            <p class="about-person">Директор, главный врач, кандидат медицинских наук,
-                                доцент</p>
-                        </figcaption>
-                    </figure>
-
-                    <figure class="block-person carousel-item">
-                        <img src="img/admins/image3.png" alt="img" class="photo-person">
-                        <figcaption>
-                            <a href="#" class="name-person">Колядина Дарья</a>
-                            <p class="about-person">Помощник директора</p>
-                        </figcaption>
-                    </figure>
-
-                    <figure class="block-person carousel-item">
-                        <img src="img/admins/image4.png" alt="img" class="photo-person">
-                        <figcaption>
-                            <a href="#" class="name-person">Колесник Анна</a>
-                            <p class="about-person">Администратор</p>
-                        </figcaption>
-                    </figure>
-
-                    <figure class="block-person carousel-item">
-                        <img src="img/admins/image5.png" alt="img" class="photo-person">
-                        <figcaption>
-                            <a href="#" class="name-person">Гусакова Полина</a>
-                            <p class="about-person">Администратор</p>
-                        </figcaption>
-                    </figure>
-                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
 
             </div>
 
@@ -221,69 +244,60 @@
 
             <h4>Врачи</h4>
 
-            <div class="carousel slide carousel-block1" data-bs-ride="carousel" data-bs-interval="3000">
-
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                            aria-label="Slide 4"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-                            aria-label="Slide 5"></button>
-
-                </div>
-
-                <div class="carousel-inner">
-
-
-                    <figure class="block-person carousel-item active">
-                        <img src="img/docter/image1.png" alt="img" class="photo-person">
-                        <figcaption>
-                            <a href="#" class="name-person">Людчик Татьяна Борисовна</a>
-                            <p class="about-person">Челюстно-лицевой хирург, кандидат медицинских наук, доцент, врач
-                                высшей категории</p>
-                        </figcaption>
-                    </figure>
-
-                    <figure class="block-person carousel-item ">
-                        <img src="img/docter/image2.png" alt="img" class="photo-person">
-                        <figcaption>
-                            <a href="#" class="name-person">Макарова Ольга Владимировна</a>
-                            <p class="about-person">Врач высшей квалификационной категории</p>
-                        </figcaption>
-                    </figure>
-
-                    <figure class="block-person carousel-item ">
-                        <img src="img/docter/image3.png" alt="img" class="photo-person">
-                        <figcaption>
-                            <a href="#" class="name-person">Белогуров Арсений Эдуардович</a>
-                            <p class="about-person">Врач-стоматолог широкого профиля, первая категория</p>
-                        </figcaption>
-                    </figure>
-
-                    <figure class="block-person carousel-item ">
-                        <img src="img/docter/image4.png" alt="img" class="photo-person">
-                        <figcaption>
-                            <a href="#" class="name-person">Герасимович Жанна Владимировна</a>
-                            <p class="about-person">Стоматолог-терапевт, периодонтолог, врач первой категории</p>
-                        </figcaption>
-                    </figure>
-
-
-                    <figure class="block-person carousel-item ">
-                        <img src="img/docter/image6.png" alt="img" class="photo-person">
-                        <figcaption>
-                            <a href="#" class="name-person">Сахарчук Анна Васильевна</a>
-                            <p class="about-person">Врач стоматолог- терапевт 1 категории</p>
-                        </figcaption>
-                    </figure>
-
+            <div class="swiper carousel-block1">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <figure class="block-person">
+                            <img src="img/docter/image1.png" alt="img" class="photo-person">
+                            <figcaption>
+                                <a href="#" class="name-person">Людчик Татьяна Борисовна</a>
+                                <p class="about-person">Челюстно-лицевой хирург, кандидат медицинских наук, доцент, врач
+                                    высшей категории</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide">
+                        <figure class="block-person">
+                            <img src="img/docter/image2.png" alt="img" class="photo-person">
+                            <figcaption>
+                                <a href="#" class="name-person">Макарова Ольга Владимировна</a>
+                                <p class="about-person">Врач высшей квалификационной категории</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide">
+                        <figure class="block-person">
+                            <img src="img/docter/image3.png" alt="img" class="photo-person">
+                            <figcaption>
+                                <a href="#" class="name-person">Белогуров Арсений Эдуардович</a>
+                                <p class="about-person">Врач-стоматолог широкого профиля, первая категория</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide">
+                        <figure class="block-person">
+                            <img src="img/docter/image4.png" alt="img" class="photo-person">
+                            <figcaption>
+                                <a href="#" class="name-person">Герасимович Жанна Владимировна</a>
+                                <p class="about-person">Стоматолог-терапевт, периодонтолог, врач первой категории</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide">
+                        <figure class="block-person">
+                            <img src="img/docter/image6.png" alt="img" class="photo-person">
+                            <figcaption>
+                                <a href="#" class="name-person">Сахарчук Анна Васильевна</a>
+                                <p class="about-person">Врач стоматолог- терапевт 1 категории</p>
+                            </figcaption>
+                        </figure>
+                    </div>
 
                 </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
 
             </div>
 
@@ -340,68 +354,61 @@
 
             <h4>Медсёстры</h4>
 
-            <div class="carousel slide carousel-block1" data-bs-ride="carousel" data-bs-interval="4000">
-
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                            aria-label="Slide 4"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-                            aria-label="Slide 5"></button>
-                </div>
-
-                <div class="carousel-inner">
-
-                    <figure class="block-person carousel-item active">
-                        <img src="img/nurses/image2.png" alt="img" class="photo-person">
-                        <figcaption>
-                            <a href="#" class="name-person">Ярославцева Татьяна</a>
-                            <p class="about-person">Медсестра</p>
-                        </figcaption>
-                    </figure>
-
-                    <figure class="block-person carousel-item">
-                        <img src="img/nurses/image4.png" alt="img" class="photo-person">
-                        <figcaption>
-                            <a href="#" class="name-person">Шишкина Наталья</a>
-                            <p class="about-person">Медсестра</p>
-                        </figcaption>
-                    </figure>
-
-                    <figure class="block-person carousel-item">
-                        <img src="img/nurses/image5.png" alt="img" class="photo-person">
-                        <figcaption>
-                            <a href="#" class="name-person">Климова Инна</a>
-                            <p class="about-person">Медсестра</p>
-                        </figcaption>
-                    </figure>
-
-                    <figure class="block-person carousel-item">
-                        <img src="img/nurses/image6.png" alt="img" class="photo-person">
-                        <figcaption>
-                            <a href="#" class="name-person">Викулова Дарья</a>
-                            <p class="about-person">Медсестра</p>
-                        </figcaption>
-                    </figure>
-
-                    <figure class="block-person carousel-item">
-                        <img src="img/nurses/image7.png" alt="img" class="photo-person">
-                        <figcaption>
-                            <a href="#" class="name-person">Рогацевич Светлана</a>
-                            <p class="about-person">Медсестра</p>
-                        </figcaption>
-                    </figure>
-
+            <div class="swiper carousel-block1">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <figure class="block-person">
+                            <img src="img/nurses/image2.png" alt="img" class="photo-person">
+                            <figcaption>
+                                <a href="#" class="name-person">Ярославцева Татьяна</a>
+                                <p class="about-person">Медсестра</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide">
+                        <figure class="block-person">
+                            <img src="img/nurses/image4.png" alt="img" class="photo-person">
+                            <figcaption>
+                                <a href="#" class="name-person">Шишкина Наталья</a>
+                                <p class="about-person">Медсестра</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide">
+                        <figure class="block-person">
+                            <img src="img/nurses/image5.png" alt="img" class="photo-person">
+                            <figcaption>
+                                <a href="#" class="name-person">Климова Инна</a>
+                                <p class="about-person">Медсестра</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide">
+                        <figure class="block-person">
+                            <img src="img/nurses/image6.png" alt="img" class="photo-person">
+                            <figcaption>
+                                <a href="#" class="name-person">Викулова Дарья</a>
+                                <p class="about-person">Медсестра</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide">
+                        <figure class="block-person">
+                            <img src="img/nurses/image7.png" alt="img" class="photo-person">
+                            <figcaption>
+                                <a href="#" class="name-person">Рогацевич Светлана</a>
+                                <p class="about-person">Медсестра</p>
+                            </figcaption>
+                        </figure>
+                    </div>
 
                 </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
 
             </div>
-
 
             <div class="carousel-block2">
 
@@ -446,7 +453,6 @@
                 </figure>
 
             </div>
-
 
         </section>
 

@@ -12,7 +12,7 @@
 }
 
 :root {
-    --swiper-theme-color: #007aff;
+    --swiper-theme-color: var(--prim2);
 }
 
 .swiper {
