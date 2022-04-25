@@ -12,8 +12,8 @@
 
     header {
         margin: 0;
-        padding: 4vw 5vw 0 5vw;
-        position: absolute;
+        padding: 2vw 5vw;
+        position: fixed;
 
     }
 
@@ -27,7 +27,6 @@
         border: none;
         display: block;
         width: 100%;
-
     }
 
     .menu__btn {
@@ -42,10 +41,7 @@
         border: none;
         background: none;
         box-shadow: none;
-
-
     }
-
 
     .menu__box a {
         color: var(--white);
@@ -69,7 +65,16 @@
         grid-column: 4;
     }
 
+    .hamburger-menu2 {
+        border: none !important;
+    }
+
+    .hamburger-menu2 a {
+        color: var(--prim3);
+    }
+
     .language {
+        display: none !important;
         padding: 0;
         margin: 4vw 0 0 0;
         grid-column: 4;
@@ -104,15 +109,63 @@
         justify-content: flex-end;
     }
 
-    .services {
-        padding: 0;
-        margin: 0;
-    }
-
-    .menu__item ul{
+    .menu__item ul {
         position: absolute;
     }
 
+    /* Dropdown Button */
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+
+        position: absolute;
+        min-width: 160px;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .block-left {
+        right: -40px;
+    }
+
+    .block-right {
+        right: -63px;
+    }
+
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        padding: 0.8rem 1rem;
+        text-decoration: none;
+        display: block;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+
+    .dropdown-content a:hover {
+        background-color: var(--neo);
+    }
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    /*.dropdown:hover .dropbtn {background-color: #3e8e41;}*/
+    /*
+
+
+    */
     .menu__item {
         margin: 0;
         padding: 0;
@@ -121,8 +174,11 @@
 
     .menu__item li {
         padding: 0;
-        margin-top: 2vw;
-        margin-left: 0;
+        margin: 0;
+    }
+
+    button {
+        background: none;
     }
 
     .services:after {

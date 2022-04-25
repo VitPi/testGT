@@ -3,7 +3,8 @@
 "use strict";
 
 
-const crest = document.querySelector('.after')  // что переворачивать
+const crest = document.querySelector('.after'),  // что переворачивать
+    arrElements = document.querySelectorAll('.cost-section')
 
 
 function rotateElements(arr) {
@@ -28,5 +29,40 @@ function rotateElements(arr) {
 }
 
 rotateElements(costSectionItem)
+
+
+function openElementBlock(arr) {
+
+    for (const arrElement of arr) {
+
+        arrElement.addEventListener('click', () => {
+            arrElement.lastElementChild.classList.toggle('open-block')
+        })
+    }
+
+}
+
+openElementBlock(arrElements)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

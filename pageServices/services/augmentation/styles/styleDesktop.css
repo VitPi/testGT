@@ -30,6 +30,10 @@
         line-height: 1rem;
     }
 
+    .block-left, .block-right {
+        background-color: var(--white) !important;
+    }
+
     .hamburger-menu {
         border: none;
         display: block;
@@ -67,7 +71,7 @@
     }
 
     .menu__item li {
-        margin-top: 2vw;
+        /*margin-top: 2vw;*/
         margin-left: 0;
     }
 

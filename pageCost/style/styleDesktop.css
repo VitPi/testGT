@@ -7,17 +7,31 @@
 
 
     .wrap-video {
-        height: 48vw;
+        height: 48vw !important;
     }
 
     .wrap-video:before {
-        height: 48vw;
+        height: 48vw !important;
     }
 
     .figcaption-fraze {
-        display: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+        top: 15vw;
     }
 
+    .figcaption-fraze-cost {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    .figcaption-fraze-paragraph {
+        margin: 0;
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        width: 40%;
+    }
 
     .language {
         display: none;
@@ -25,15 +39,6 @@
 
     .social-links {
         display: none;
-    }
-
-    .block-cost {
-        width: 100%;
-        display: grid;
-        position: absolute;
-        top: 14vw;
-        left: -4vw;
-
     }
 
     .block-item-cost {

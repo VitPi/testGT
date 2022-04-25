@@ -11,11 +11,11 @@
     }
 
     .wrap-video {
-        height: 48vw;
+        height: 48vw !important;
     }
 
     .wrap-video:before {
-        height: 48vw;
+        height: 48vw !important;
     }
 
     .wrap-text-spec {

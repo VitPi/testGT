@@ -36,6 +36,9 @@
         width: 100%;
     }
 
+    .block-left, .block-right {
+        background-color: var(--white) !important;
+    }
 
     .language {
         display: none;
@@ -76,7 +79,6 @@
     }
 
     .menu__item li {
-        margin-top: 2vw;
         margin-left: 0;
     }
 

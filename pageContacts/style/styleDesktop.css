@@ -13,7 +13,6 @@
     header {
         margin: 0;
         padding: 0 5vw;
-        position: static;
         height: 7vw;
         align-items: center;
 
@@ -26,7 +25,7 @@
     }
 
     .hamburger-menu {
-        border: none;
+        border: none !important;
         display: block;
         width: 100%;
     }
@@ -51,7 +50,7 @@
     }
 
     .menu__box a {
-        color: var(--white);
+        color: var(--prim2) !important;
 
     }
 
@@ -79,13 +78,6 @@
         grid-row: 2;
     }
 
-    .svg {
-        display: none;
-    }
-
-    .svg2 {
-        display: block;
-    }
 
     .social-links {
         margin: 14vw 0 0 0;
@@ -305,12 +297,21 @@
         color: var(--prim2);
     }
 
-    .svg {
+
+    .svg2 {
         display: block;
     }
 
     .language {
         display: none;
+    }
+
+    .block-left {
+        background-color: var(--white) !important;
+    }
+
+    .block-right {
+        background-color: var(--white) !important;
     }
 
     .social-links {
@@ -320,17 +321,14 @@
     .sectionMain {
         height: auto;
         padding: 0;
-        margin-top: 8vw;
+        margin-top: 13vw !important;
         display: flex;
         justify-content: space-between;
 
     }
 
 
-
     /*  form  */
-
-
     form {
         padding: 0 6vw;
         display: grid;
@@ -393,7 +391,7 @@
 
     .embed-container {
         padding: 0;
-        margin-top: 10vw;
+        margin-top: 0;
         height: 45vw;
 
     }

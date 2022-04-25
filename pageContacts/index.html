@@ -6,32 +6,33 @@
           content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="../style/style.css">
-    <link rel="stylesheet" href="../style/styleDesktop.css">
 
     <link rel="stylesheet" href="style/styles.css">
     <link rel="stylesheet" href="style/styleDesktop.css">
 
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/styleDesktop.css">
     <script defer src="../js/script.js"></script>
     <title>Contacts</title>
 </head>
 <body>
 
 <header>
-
-    <figure class="logo">
-        <img src="../img/logo.png" alt="logo">
-        <figcaption>
-            <p>DentHealth</p>
-        </figcaption>
-    </figure>
+    <a href="../index.html">
+        <figure class="logo">
+            <img src="../img/logo.png" alt="logo">
+            <figcaption>
+                <p>DentHealth</p>
+            </figcaption>
+        </figure>
+    </a>
 
     <nav class="hamburger-menu">
 
         <input id="menu__toggle" type="checkbox"/>
 
         <label class="menu__btn" for="menu__toggle">
-            <span></span>
+            <span class="span"></span>
 
         </label>
 
@@ -39,18 +40,15 @@
 
             <ul class="logo-link2">
 
-                <li><a href="#"><img src="../img/prim.svg" alt="svg" class="svg"></a></li>
-                <li><a href="#"><img src="../img/prim2.svg" alt="svg" class="svg2"></a></li>
+                <li><a href="#"><img src="../img/prim.svg" alt="svg"></a></li>
 
                 <li>
                     <ul class="logo-link2-tel">
-                        <li><a href="#">
-                            <img src="../img/telephone.svg" alt="svg" class="svg">
-                            <img src="../img/telephone2.svg" alt="svg" class="svg2">
+                        <li><a href="tel:+375173238870">
+                            <img src="../img/telephone.svg" alt="svg">
                         </a></li>
-                        <li><a href="#map">
-                            <img src="../img/location.svg" alt="svg" class="svg">
-                            <img src="../img/location2.svg" alt="svg" class="svg2">
+                        <li><a href="../pageContacts/index.html">
+                            <img src="../img/location.svg" alt="svg">
                         </a></li>
                     </ul>
                 </li>
@@ -65,22 +63,27 @@
             <ul class="logo-link">
                 <li class="menu__item"><a href="../index.html">Главная</a></li>
                 <li class="menu__item"><a href="../pageAboutClinic/index.html">О клинике</a></li>
-                <li class="menu__item"><a class="services" href="#">Пациентам</a>
-                    <ul class="services-item item-list">
+
+                <li class="menu__item dropdown">
+                    <a class="services">Пациентам</a>
+                    <ul class="list dropdown-content block-left">
                         <li><a href="../pageCost/index.html">Стоимость</a></li>
                         <li><a href="../pagePeoples/index.html">Персонал</a></li>
                         <li><a href="../pageReviews/index.html">Отзывы</a></li>
                     </ul>
                 </li>
 
-                <li class="menu__item"><a class="services" href="#">Услуги</a>
-                    <ul class="services-item">
+                <li class="menu__item dropdown">
+                    <a class="services">Услуги</a>
+                    <ul class="dropdown-content item-list block-right">
                         <li><a href="../pageServices/services/prof/index.html">Профилактика и лечение кариеса</a></li>
                         <li><a href="../pageServices/services/periodontology/index.html">Периодонтология</a></li>
-                        <li><a href="../pageServices/services/aestheticDentistry/index.html">Эстетическая стоматология</a></li>
+                        <li><a href="../pageServices/services/aestheticDentistry/index.html">Эстетическая
+                            стоматология</a></li>
                         <li><a href="../pageServices/services/implants/index.html">Имплантация</a></li>
                         <li><a href="../pageServices/services/augmentation/index.html">Аугментация</a></li>
-                        <li><a href="../pageServices/services/complexProsthetics/index.html">Комплексное протезирование</a></li>
+                        <li><a href="../pageServices/services/complexProsthetics/index.html">Комплексное
+                            протезирование</a></li>
                     </ul>
                 </li>
 
@@ -93,11 +96,11 @@
                     <img src="../img/instagram2.svg" alt="svg" class="svg2">
                 </a></li>
 
-                <li><a href="#">
+                <li><a href="tg://resolve?domain=">
                     <img src="../img/telega.svg" alt="svg" class="svg">
                     <img src="../img/telega2.svg" alt="svg" class="svg2">
                 </a></li>
-                <li><a href="#">
+                <li><a href="viber://chat?number=%2B375173238870">
                     <img src="../img/viber.svg" alt="svg" class="svg">
                     <img src="../img/viber2.svg" alt="svg" class="svg2">
                 </a></li>
@@ -251,13 +254,13 @@
                         <circle cx="22.8555" cy="6.27099" r="1.26611" stroke="#6C7F8E" class="colour"/>
                     </svg>
                 </a></li>
-                <li><a href="#">
+                <li><a href="tg://resolve?domain=">
                     <svg width="33" height="30" viewBox="0 0 33 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M8.36512 16.3114L2.0103 13.2274C1.28504 12.8755 1.33322 11.8265 2.08769 11.5425L30.4738 0.857254C31.1639 0.597488 31.8631 1.21627 31.6892 1.93283L25.3852 27.9097C25.2254 28.5683 24.4315 28.8326 23.9088 28.4012L17.3717 23.0055M8.36512 16.3114L10.7993 27.7522M8.36512 16.3114L20.1298 10.0426C21.0463 9.55426 21.9416 10.7243 21.2305 11.4812L13.7204 19.4759M10.7993 27.7522L17.3717 23.0055M10.7993 27.7522L13.7204 19.4759M17.3717 23.0055L13.7204 19.4759"
                               stroke="#6C7F8E" stroke-linejoin="round"/>
                     </svg>
                 </a></li>
-                <li><a href="#">
+                <li><a href="viber://chat?number=%2B375173238870">
                     <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"
                          xmlns:xlink="http://www.w3.org/1999/xlink">
                         <rect x="0.0986633" y="0.290039" width="35" height="35" fill="url(#pattern0)"/>
@@ -288,8 +291,6 @@
 
 
 </footer>
-
-
 
 
 </body>

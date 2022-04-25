@@ -44,6 +44,10 @@
         display: block;
     }
 
+    .block-left, .block-right {
+        background-color: var(--white) !important;
+    }
+
     .menu__box {
         position: static;
         min-width: 100%;
@@ -67,7 +71,7 @@
     }
 
     .menu__item li {
-        margin-top: 2vw;
+        /*margin-top: 2vw;*/
         margin-left: 0;
     }
 

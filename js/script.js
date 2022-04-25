@@ -10,7 +10,7 @@
 
 
 const body = document.body,
-
+    windowInnerWidth = window.innerWidth,
     checkbox = document.querySelector('#menu__toggle');
 
 
@@ -24,28 +24,30 @@ const clickOnLink = document.querySelectorAll('.menu__item'),   // сами бл
     a = document.querySelector('.services'); // сам элимент который который крцтиться в мобилке
 
 
-// console.log(aft);
-
 function hideElements(arr) {
 
-    for (const clickOnLinkElement of arr) {
 
-        clickOnLinkElement.addEventListener('click', () => {
-            const objChildrenColl = clickOnLinkElement.childNodes;
+    if (windowInnerWidth < 800) {
 
-            for (const argumentsKey in objChildrenColl) {
-                const elementObject = objChildrenColl[argumentsKey]
+        for (const clickOnLinkElement of arr) {
 
-                if (elementObject.localName === ul.localName) {
-                    elementObject.classList.toggle('services-item') // скрывает элимент
+            clickOnLinkElement.addEventListener('click', () => {
+                const objChildrenColl = clickOnLinkElement.childNodes;
+
+                for (const argumentsKey in objChildrenColl) {
+                    const elementObject = objChildrenColl[argumentsKey]
+
+                    if (elementObject.localName === ul.localName) {
+                        elementObject.classList.toggle('services-item') // скрывает элимент
+                    }
+
+                    if (elementObject.localName === a.localName) {
+                        elementObject.classList.toggle('click')   // на поворот стрелки в моб меню
+                    }
+
                 }
-
-                if (elementObject.localName === a.localName) {
-                    elementObject.classList.toggle('click')   // на поворот стрелки в моб меню
-                }
-
-            }
-        })
+            })
+        }
     }
 }
 
@@ -59,29 +61,88 @@ hideElements(costSectionItem)
 
 //    цвет
 
-function colourHeader() {
+function colourHeaderMobile() {
 
-    const header = document.querySelector('header'),
-        span = document.querySelector('.span'),
-        nav = document.querySelector('.hamburger-menu');
 
-    window.addEventListener('scroll', function () {
+    if (windowInnerWidth < 800) {
 
-        if (scrollY >= 500) {
-            header.classList.add('white')
-            nav.classList.add('hamburger-menu2')
-            span.classList.add('span-colour')
 
-        } else if (scrollY < 700) {
-            header.classList.remove('white')
-            nav.classList.remove('hamburger-menu2')
-            span.classList.remove('span-colour')
-        }
-    });
+        const header = document.querySelector('header'),
+            span = document.querySelector('.span'),
+            nav = document.querySelector('.hamburger-menu');
 
+        window.addEventListener('scroll', function () {
+
+            if (scrollY >= 300) {
+                header.classList.add('white')
+                nav.classList.add('hamburger-menu2')
+                span.classList.add('span-colour')
+
+            } else if (scrollY < 300) {
+                header.classList.remove('white')
+                nav.classList.remove('hamburger-menu2')
+                span.classList.remove('span-colour')
+            }
+        });
+    }
 }
 
-colourHeader()
+colourHeaderMobile()
+
+
+//    цвет
+
+function colourHeaderDesktop() {
+
+
+    if (windowInnerWidth > 800) {
+
+
+        const head = document.querySelector('header'),
+            blockLeft = document.querySelector('.block-left'),
+            blockRight = document.querySelector('.block-right'),
+            svg = document.querySelectorAll('.svg'),
+            svg2 = document.querySelectorAll('.svg2'),
+            nav = document.querySelector('.hamburger-menu'),
+            socialLinks = document.querySelector('.social-links'),
+            language = document.querySelector('.language');
+
+        window.addEventListener('scroll', function () {
+
+            if (scrollY > 200) {
+                head.classList.add('white')
+                nav.classList.add('hamburger-menu2')
+                blockLeft.style.backgroundColor = 'white'
+                blockRight.style.backgroundColor = 'white'
+                for (const elSvg of svg) {
+                    elSvg.style.display = 'block'
+                }
+                for (const elSvg2 of svg2) {
+                    elSvg2.style.display = 'none'
+                }
+                language.style.display = 'none'
+                socialLinks.style.display = 'none'
+
+            } else if (scrollY < 200) {
+                head.classList.remove('white')
+                nav.classList.remove('hamburger-menu2')
+                blockLeft.style.backgroundColor = 'transparent'
+                blockRight.style.backgroundColor = 'transparent'
+                for (const elSvg of svg) {
+                    elSvg.style.display = 'none'
+                }
+                for (const elSvg2 of svg2) {
+                    elSvg2.style.display = 'block'
+                }
+                language.style.display = 'block'
+                socialLinks.style.display = 'block'
+
+            }
+        });
+    }
+}
+
+colourHeaderDesktop()
 
 
 

@@ -30,6 +30,14 @@
         font-size: 3rem;
     }
 
+    .language {
+        display: none;
+    }
+
+    .social-links {
+        display: none;
+    }
+
     .coll-ser {
         margin-top: 15vw;
         padding: 6vw 4vw 6vw 10vw;
@@ -43,7 +51,7 @@
         display: inline-flex;
     }
 
-    footer{
+    footer {
         margin-top: 10.5vw;
     }
 

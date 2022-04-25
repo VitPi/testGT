@@ -57,6 +57,9 @@
         display: none;
     }
 
+    .block-right, .block-left{
+        background-color: var(--white) !important;
+    }
 
     .menu__box {
         position: static;
@@ -81,7 +84,7 @@
     }
 
     .menu__item li {
-        margin-top: 2vw;
+        /*margin-top: 2vw;*/
         margin-left: 0;
     }
 

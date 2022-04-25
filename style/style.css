@@ -145,10 +145,18 @@ header {
     transform: rotate(45deg);
 }
 
-
-.services-item {
+.block-left {
     display: none;
 }
+
+.block-right {
+    display: none;
+}
+
+.services-item {
+    display: block;
+}
+
 
 .menu__item li {
     margin-top: 5vw;
@@ -230,9 +238,9 @@ header {
     color: var(--cold);
 }
 
-.logo a:before {
-    content: url("../img/logo.png");
-}
+/*.logo a:before {*/
+/*    content: url("../img/logo.png");*/
+/*}*/
 
 .logo a {
     /*width: 20vw;*/

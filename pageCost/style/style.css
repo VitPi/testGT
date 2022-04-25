@@ -40,10 +40,6 @@
     content: none;
 }
 
-.block-cost {
-    display: none;
-}
-
 .figcaption-fraze {
     display: block;
     position: absolute;
@@ -123,10 +119,16 @@
 
 .item-list {
     grid-column: 1/3;
-
 }
 
 
+.close-block{
+    display: none;
+}
+
+.open-block{
+    display: block;
+}
 
 
 

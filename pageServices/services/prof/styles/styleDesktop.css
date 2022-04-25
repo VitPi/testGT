@@ -30,6 +30,13 @@
         justify-content: space-around;
     }
 
+    .block-left {
+        background-color: var(--white) !important;
+    }
+
+    .block-right {
+        background-color: var(--white) !important;
+    }
 
     .language {
         display: none;
@@ -77,7 +84,6 @@
     }
 
     .menu__item li {
-        margin-top: 2vw;
         margin-left: 0;
     }
 
