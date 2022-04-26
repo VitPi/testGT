@@ -9,12 +9,16 @@
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/styleDesktop.css">
 
+    <link rel="stylesheet" href="../pageReviews/styles/style.css">
+    <link rel="stylesheet" href="../pageReviews/styles/styleDesktop.css">
+
 
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/styleDesktop.css">
 
 
     <script defer src="../js/script.js"></script>
+    <script defer src="js/script.js"></script>
 
     <title>jobOpenings</title>
 </head>
@@ -155,11 +159,53 @@
 
 
     <section class="next-form">
-        <p class="next-form-text">
+        <h4 class="next-form-text">
             Если вы не нашли подходящей вакансии, но очень хотите с нами работать, заполните эту форму
-        </p>
-        <span></span>
+        </h4>
+        <span class="img-span rote">
+            <img src="img/vector.svg" alt="vector">
+        </span>
     </section>
+
+
+    <form class="form form-dis">
+        <h1 class="record-h1">Форма заявки</h1>
+
+        <p class="fraze-form">
+            Просто напишите нам, если вас заинтересовала одна из наших вакансий. Мы свяжемся с Вами!
+        </p>
+
+        <label class="form-group form-group-name form-group-call">
+            <input type="text" class="form-control feedback"
+                   placeholder="ФИО*">
+        </label>
+
+        <label class="form-group form-group-call">
+            <input type="tel" class="form-control feedback" placeholder="Телефон">
+        </label>
+        <label class="form-group form-group-call">
+            <input type="email" class="form-control feedback" placeholder="Email">
+        </label>
+        <label class="form-group form-group-call">
+            <input type="text" class="form-control feedback" placeholder="Ссылка">
+        </label>
+
+        <label class="form-group form-group-call">
+        <textarea name="textarea"
+                  rows="2" cols="30"
+                  placeholder="Дополнительное сообщение к моим заявочным документам."></textarea>
+        </label>
+
+        <label class="down">
+            <img src="img/plus.svg" alt="" class="img-dow">
+            <span class="documents-fails"> Загрузить документы заявки</span>
+            <span class="documents-format">(макс. 3 МБ / pdf / doc / docx / rtf)</span>
+            <input multiple type="file" class="">
+        </label>
+
+        <button type="submit" class="btn btn-primary">Отправить</button>
+
+    </form>
 
 
 </main>

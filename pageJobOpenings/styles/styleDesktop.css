@@ -38,6 +38,10 @@
         font-size: 3rem;
     }
 
+    .next-form-text{
+        text-align: center;
+    }
+
     /*  === == =  */
     .section-h3 {
         width: 25%;
